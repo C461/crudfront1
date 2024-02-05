@@ -1,12 +1,10 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://crudfront1-production.up.railway.app",
+  baseURL: "https://crudauth-production.up.railway.app/api",
   withCredentials: true,
   headers: {
     "Content-Type": "application/json",
-    "Access-Control-Allow-Origin":
-      "https://crudfront1-production.up.railway.app/register https://crudfront1-production.up.railway.app/login https://crudfront1-production.up.railway.app/tasks",
   },
 });
 
