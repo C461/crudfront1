@@ -6,7 +6,7 @@ const instance = axios.create({
   headers: {
     "Content-Type": "application/json",
     "Access-Control-Allow-Origin":
-      "https://crudfront1-production.up.railway.app/register https://crudfront1-production.up.railway.app/login",
+      "https://crudfront1-production.up.railway.app/register https://crudfront1-production.up.railway.app/login https://crudfront1-production.up.railway.app/tasks",
   },
 });
 
